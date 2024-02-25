@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>My Profile</title>
+</head>
+
+<body>
+    <div class="card">
+
+        <div class="img-avatar"></div>
+
+        <div class="card-text">
+
+            <div class="side-cover"></div>
+
+            <div class="title-total">
+
+                <div class="title">Web Developer</div>
+                <h2>Pancham Sardar</h2>
+
+                <div class="desc">Web dev wizard with a mountain fetish, anime aficionado, and manga maestro dreaming of
+                    coding in Japan. Because who needs reality when you can dream of cherry blossoms, travels and green
+                    tea flows like bugs in unpatched software 🌸💻. .</div>
+
+                <div class="actions">
+                    <button onclick="openLink('link1')"><img src="./media/linkedin.png" alt="Linked In"></button>
+                    <button onclick="openLink('link2')"><img src="./media/github.png" alt="Git Hub"></button>
+                    <button onclick="openLink('link3')"><img src="./media/instagram.png" alt="Instagram"></button>
+                </div>
+
+                <script>
+                    function openLink(link) {
+
+                        const links = {
+                            'link1': 'https://www.linkedin.com/in/pancham-sardar-6a466227b/',
+                            'link2': 'https://github.com/Panchammmm',
+                            'link3': 'https://www.instagram.com/pinaki_x_pancham/?utm_source=qr',
+                        };
+
+                        // Open the link in a new tab/window
+                        window.open(links[link], '_blank');
+                    }
+                </script>
+
+            </div>
+
+        </div>
+
+    </div>
+</body>
+
+</html>
